@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Journal Sans New';
+    src: url('../fonts/JournalSansNew.eot');
+    src: local('Journal Sans New'), local('JournalSansNew'),
+        url('../fonts/JournalSansNew.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/JournalSansNew.woff2') format('woff2'),
+        url('../fonts/JournalSansNew.woff') format('woff'),
+        url('../fonts/JournalSansNew.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@mixin reg {
+    font-family: 'Journal Sans New', sans-serif;
+    font-weight: 400
+}
+
+@mixin bold {
+    font-family: 'Journal Sans New', sans-serif;
+    font-weight: 700
+}
